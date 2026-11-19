@@ -37,6 +37,7 @@ public class Main extends JFrame {
 
     //start the desktop app window
     public static void main(String[] args) {
+        ResuMakeTheme.install();
         Main frame = new Main();
         frame.setSize(1000, 600);
         frame.setResizable(false);
